@@ -38,7 +38,7 @@
     <scm>
         <connection>scm:git:git://github.com/tiagoadmstz/DateMJ.git</connection>
         <developerConnection>scm:git:ssh://github.com:tiagoadmstz/DateMJ.git</developerConnection>
-        <url>http://github.com/tiagoadmstz/DateMJ</url>
+        <url>http://github.com/tiagoadmstz/DateMJ/tree/master</url>
     </scm>
 
     <distributionManagement>
@@ -72,6 +72,17 @@
                     <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                     <stagingProfileId>7edbe315063867</stagingProfileId>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <useReleaseProfile>false</useReleaseProfile>
+                    <releaseProfiles>release</releaseProfiles>
+                    <goals>deploy</goals>
                 </configuration>
             </plugin>
             <plugin>

@@ -6,7 +6,7 @@
 
     <groupId>io.github.tiagoadmstz</groupId>
     <artifactId>datemj</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
     <name>DateMJ</name>
@@ -38,7 +38,7 @@
     <scm>
         <connection>scm:git:git://github.com/tiagoadmstz/DateMJ.git</connection>
         <developerConnection>scm:git:ssh://github.com:tiagoadmstz/DateMJ.git</developerConnection>
-        <url>http://github.com/tiagoadmstz/DateMJ</url>
+        <url>http://github.com/tiagoadmstz/DateMJ/tree/master</url>
     </scm>
 
     <distributionManagement>
