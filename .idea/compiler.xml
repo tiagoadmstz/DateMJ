@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DateMJ" />
+        <module name="date-mj" />
       </profile>
     </annotationProcessing>
   </component>
