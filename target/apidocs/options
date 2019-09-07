@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/Tiago/IdeaProjects/DateMJ/target/classes'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/Tiago/IdeaProjects/DateMJ/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2019. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Tiago/IdeaProjects/DateMJ/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'DateMJ 1.0.0.RELEASE API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' 'C:/Users/Tiago/IdeaProjects/DateMJ/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'DateMJ 1.0.0.RELEASE API'
